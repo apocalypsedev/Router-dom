@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.room{
+    background: linear-gradient(#14274a6a, #14274a6a), url("../../assets/images/room/main.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(20, 39, 74, 0.50) ;
+    padding-top: 180px;
+}
+.room__main{
+    width: 40%;
+    height: 300px;
+
+    color:#fff;
+    margin-left: 100px;
+}
+.room__main h4{
+    font-family: Montserrat;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.room__main h1{
+
+    font-family: Adobe Garamond Pro;
+    font-size: 104px;
+    font-weight: 700;
+    /* line-height: 185px; */
+    letter-spacing: 0.07em;
+    text-align: left;
+}
+.room__main h6{
+    font-family: Montserrat;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.1em;
+    text-align: left;
+
+}
+.room__scroll{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    padding-top: 5px;
+    margin: auto;
+}
+.room__btn{
+    width: 300px;
+    height: 200px;
+    /* border: 1px solid red; */
+    text-align: center;
+    margin: auto;
+    color: #fff;
+    font-weight: 500;
+
+}
+.room__btn button{
+    margin-bottom: 80px ;
+    width: 268px;
+    height: 78px;
+    gap: 10px;
+    background: #E0B973;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 24px;
+    color: #fff;
+    font-family:sans-serif ;
+    font-weight: 700; 
+}
+.room__btn button span{
+    margin-right: 10px;
+    font-size: 26px;
+}
+.room__second{
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 100px;
+    text-align: center;
+}
+.room__second h1{
+    font-family: "Times New Roman", Times, Baskerville, Georgia, serif;
+    margin: 30px 0;
+}
+.rm_first{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 20px 20px;
+    border-left: 1px solid #14274A;
+    border-bottom: 1px solid #14274A;
+    border-right: 1px solid #14274A;
+    margin: 50px 0;
+}
+.rm_first_img {
+    width: 100%;
+    height: 80%;
+    background: url("../../assets/images/room/first.jpg" ) no-repeat center/cover;;
+    /* border: 2px solid red; */
+}
+.rm_first h1{
+    width: 100%;
+    height: 10%;
+    background-color: #14274A;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+.rm_first_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rm_first_btn button{
+    width: 100px;
+    height: 24px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #E0B973;
+    color: #fff;
+    border-radius: 5px;
+}
+
+
+.rm_second{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 20px 20px;
+    border-left: 1px solid #14274A;
+    border-bottom: 1px solid #14274A;
+    border-right: 1px solid #14274A;
+    margin: 50px 0;
+}
+.rm_second_img {
+    width: 100%;
+    height: 80%;
+    background: url("../../assets/images/room/second.jpg" ) no-repeat center/cover;;
+    /* border: 2px solid red; */
+}
+.rm_second h1{
+    width: 100%;
+    height: 10%;
+    background-color: #14274A;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+.rm_second_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rm_second_btn button{
+    width: 100px;
+    height: 24px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #E0B973;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.rm_third{
+    width: 100%;
+    height: 100vh;
+    border-radius: 0 0 20px 20px;
+    border-left: 1px solid #14274A;
+    border-bottom: 1px solid #14274A;
+    border-right: 1px solid #14274A;
+    margin: 50px 0;
+}
+.rm_third_img {
+    width: 100%;
+    height: 80%;
+    background: url("../../assets/images/room/third.jpg" ) no-repeat center/cover;;
+    /* border: 2px solid red; */
+}
+.rm_third h1{
+    width: 100%;
+    height: 10%;
+    background-color: #14274A;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: sans-serif;
+    color: #fff;
+}
+.rm_third_btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.rm_third_btn button{
+    width: 100px;
+    height: 24px;
+    font-family: sans-serif;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: #E0B973;
+    color: #fff;
+    border-radius: 5px;
+}
